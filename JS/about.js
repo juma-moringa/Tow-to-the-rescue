@@ -1,0 +1,19 @@
+// toggle effect
+$(document).ready(function(){
+    $("#toggler").click(function(){
+      $("#mission-image").toggle();
+      $("#mission").toggle();
+    });
+  });
+  $(document).ready(function(){
+    $("#toggler2").click(function(){
+      $("#core-values-image").toggle();
+      $("#core-values").toggle();
+    });
+  });
+  $(document).ready(function(){
+    $("#toggler3").click(function(){
+      $("#vision-image").toggle();
+      $("#vision").toggle();
+    });
+  }); 
