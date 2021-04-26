@@ -44,3 +44,7 @@ footer{
     height: 80px;
     
 }
+#mission, #core-values, #vision{
+    display: none;
+    font-size: 16px;
+  }
