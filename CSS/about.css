@@ -1,0 +1,30 @@
+header {
+    background-color: gold;
+    text-align: center;
+    overflow: hidden;
+    /* color: white; */
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+.navdiv {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color:blue;
+}
