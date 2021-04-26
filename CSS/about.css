@@ -1,5 +1,5 @@
 header {
-    background-color: gold;
+    background-color: goldenrod;
     text-align: center;
     overflow: hidden;
     /* color: white; */
@@ -33,4 +33,14 @@ a:hover{
 }
 h2 {
     text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color:goldenrod;
+    padding: 30px;
+    overflow: hidden;
+    height: 80px;
+    
 }
