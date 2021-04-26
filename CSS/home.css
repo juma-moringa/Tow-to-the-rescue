@@ -1,24 +1,52 @@
 body {
-  background-color: black;
+  background-image: url(../IMAGES/project.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vp;
 }
-h1 {
-    text-align: center;
-    color: goldenrod;
-}
-nav ul{
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-ul li{
-    display: inline;
-    float: left;
-}
-li a{
-    display: block;
-  color: rgb(187, 157, 146);
+header {
+  background-color: goldenrod;
   text-align: center;
-  padding: 14px 16px;
+  overflow: hidden;
+  /* color: white; */
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-decoration: none;
+}
+nav{
+  display: flex;
+  float: right;
+}
+.navdiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+a:hover{
+  color:blue;
+}
+h2 {
+  text-align: center;
+}
+footer{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  background-color:goldenrod;
+  padding: 30px;
+  overflow: hidden;
+  height: 80px;
+  
 }
