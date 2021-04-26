@@ -40,6 +40,17 @@ a:hover{
 h2 {
   text-align: center;
 }
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  font-style: italic;
+}
+.we {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
 footer{
   text-align: center;
   font-size: 15px;
