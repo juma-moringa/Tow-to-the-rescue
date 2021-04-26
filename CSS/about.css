@@ -10,7 +10,10 @@ header {
     padding-right: 100px;
     text-decoration: none;
 }
-
+nav{
+    display: flex;
+    float: right;
+}
 .navdiv {
     align-items: center;
     display: flex;
@@ -27,4 +30,7 @@ a{
 }
 a:hover{
     color:blue;
+}
+h2 {
+    text-align: center;
 }
