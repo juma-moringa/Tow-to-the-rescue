@@ -8,6 +8,9 @@
   <title>Tow to the rescue</title>
   <link rel="stylesheet" href="CSS/bootstrap.css">
   <link rel="stylesheet" href="CSS/contact.css">
+  <script src="JS/jquery.js"></script>
+  <script src="JS/contact.js"></script>
+
 </head>
 
 <body>
@@ -37,32 +40,15 @@
         <img src="./IMAGES/contact.jpeg" style="width:100%">
       </div>
       <div class="column">
-        <!-- <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="county">County</label>
-          <select id="county" name="county">
-            <option value="nairobi">Nairobi</option>
-            <option value="mombasa">Mombasa</option>
-            <option value="kisumu">Kisumu</option>
-            <option value="nakuru">Nakuru</option>
-            <option value="eldoret">Eldoret</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form> -->
         <h1 style="text-align: center;">CONTACT FORM</h1>
-        <form name="contact" action="" onsubmit="return towToTheRescue()" method="post">
-          <p>Name: <input type="text" size="65" name="Name" /></p>
+        <form name="contact" action="" onsubmit="return towToTheRescue()" id="submit">
+          <p>Name: <input type="text" size="65" name="Name" id="name1" /></p>
           <br />
-          <p>Location: <input type="text" size="65" name="Location" /></p>
+          <p>Location: <input type="text" size="65" name="Location" id="location1" /></p>
           <br />
-          <p>E-mail Address: <input type="text" size="65" name="EMail" /></p>
+          <p>E-mail Address: <input type="text" size="65" name="EMail" id="name2" /></p>
           <br />
-          <p>Telephone: <input type="text" size="65" name="Telephone" /></p>
+          <p>Telephone: <input type="text" size="65" name="Telephone" id="phone"/></p>
           <br />
 
           <p>
@@ -78,7 +64,7 @@
           </p>
           <br />
           <br />
-          <p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
+          <p>Comments: <textarea cols="55" name="Comment" id="comment"> </textarea></p>
           <p>
             <input type="submit" value="send" name="Submit" />
             <input type="reset" value="Reset" name="Reset" />
