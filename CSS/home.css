@@ -1,8 +1,7 @@
 body {
-  /* background-image: url(../IMAGES/project.jpeg); */
+  background-image: url(../IMAGES/background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 header {
   background-color: goldenrod;
@@ -28,6 +27,7 @@ nav{
   font-size: 25px;
   font-style: italic;
   text-decoration: none;
+  height: 100;
 }
 a{
   color: white;
@@ -42,13 +42,13 @@ h2 {
 }
 h1 {
   text-align: center;
-  color: rgb(14, 15, 15);
+  color: rgb(235, 245, 245);
   font-size: 35px;
   font-style: italic;
 }
 .we {
   text-align: center;
-  color: black;
+  color: rgb(252, 249, 249);
   font-size: 25px;
 }
 footer{
