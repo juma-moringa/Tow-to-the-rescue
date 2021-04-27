@@ -37,7 +37,7 @@
         <img src="./IMAGES/contact.jpeg" style="width:100%">
       </div>
       <div class="column">
-        <form action="/action_page.php">
+        <!-- <form action="/action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
           <label for="lname">Last Name</label>
@@ -53,7 +53,47 @@
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
           <input type="submit" value="Submit">
-        </form>
+        </form> -->
+        <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <form name="RegForm" action="/submit.php" 
+          onsubmit="return GEEKFORGEEKS()" method="post">
+        <p>Name: <input type="text" 
+                        size="65" name="Name" /></p>
+        <br />
+        <p>Address: <input type="text" 
+                           size="65" name="Address" /></p>
+        <br />
+        <p>E-mail Address: <input type="text" 
+                               size="65" name="EMail" /></p>
+        <br />
+        <p>Password: <input type="text" 
+                            size="65" name="Password" /></p>
+        <br />
+        <p>Telephone: <input type="text" 
+                             size="65" name="Telephone" /></p>
+        <br />
+  
+        <p>
+            SELECT YOUR COURSE
+            <select type="text" value="" name="Subject">
+                <option>BTECH</option>
+                <option>BBA</option>
+                <option>BCA</option>
+                <option>B.COM</option>
+                <option>GEEKFORGEEKS</option>
+            </select>
+        </p>
+        <br />
+        <br />
+        <p>Comments: <textarea cols="55" 
+                               name="Comment"> </textarea></p>
+        <p>
+            <input type="submit" 
+                   value="send" name="Submit" />
+            <input type="reset" 
+                   value="Reset" name="Reset" />
+        </p>
+    </form>
       </div>
     </div>
   </div>
