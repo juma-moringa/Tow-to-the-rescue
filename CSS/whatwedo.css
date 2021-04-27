@@ -1,0 +1,50 @@
+header {
+    background-color: goldenrod;
+    text-align: center;
+    overflow: hidden;
+    /* color: white; */
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    float: right;
+}
+.navdiv {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color:blue;
+}
+h2 {
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color:goldenrod;
+    padding: 30px;
+    overflow: hidden;
+    height: 80px;
+    
+}
+#mission, #core-values, #vision{
+    display: none;
+    font-size: 16px;
+  }

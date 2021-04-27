@@ -2,7 +2,7 @@
 ## Authors
 Juma Allan, Amos kiprotich, Rahab Wambui, Lydia wangare.
 ## Description
-Its a website that expalins more about ......
+A website that helps stuck drivers locate the nearest mechanics .
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -21,6 +21,6 @@ To access this project on your local files, you can clone it using these steps
 1. jQuery
 1. Javascript
 ### Live Site
-View [live](add the .io link)
+View [live](https://juma-moringa.github.io/Tow-to-the-rescue/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence.
