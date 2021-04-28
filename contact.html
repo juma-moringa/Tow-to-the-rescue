@@ -23,37 +23,35 @@
           <a href="index.html"> HOME </a>
           <a href="about.html"> ABOUT US </a>
           <a href="whatwedo.html"> WHAT WE DO </a>
-          <a href="contact.html"> CONTUCT US</a>
+          <a href="contact.html"> CONTACT US</a>
         </nav>
       </div>
     </div>
     </div>
   </header>
   <div class="container">
-
-    <div style="text-align:center">
-      <h2>Contact Us</h2>
-      <p></p>
-    </div>
     <div class="row">
       <div class="column">
-        <img src="./IMAGES/contact.jpeg" style="width:100%">
+        <div id="text">
+        <p>Just with a press of the send button, our team will reach out to you</p>
+        <p>in the minimum time possible, you are only required to fill this form,just ensure you have the</p>
+        <p><strong>location</strong> and the <em>comment</em> section filled with the correct information</p>
+        <p>about the correct area and the defect you have in your vehicle respectively.</p>
+        </div>
+        <img src="./IMAGES/contact3.jpeg" style="width:100%">
+        </br>
+        <img src="./IMAGES/spanner.jpeg" style="width:100%">
       </div>
       <div class="column">
         <h1 style="text-align: center;">CONTACT FORM</h1>
         <form name="contact" action="" onsubmit="return towToTheRescue()" id="submit">
-          <p>Name: <input type="text" size="65" name="Name" id="name1" /></p>
-          <br />
-          <p>Location: <input type="text" size="65" name="Location" id="location1" /></p>
-          <br />
-          <p>E-mail Address: <input type="text" size="65" name="EMail" id="name2" /></p>
-          <br />
-          <p>Telephone: <input type="text" size="65" name="Telephone" id="phone"/></p>
-          <br />
-
+          <p>Name: <input type="text" size="65" name="Name" id="name1" required /></p>
+          <p>Location: <input type="text" size="65" name="Location" id="location1" required /></p>
+          <p>E-mail Address: <input type="text" size="65" name="EMail" id="name2" required /></p>
+          <p>Telephone: <input type="text" size="65" name="Telephone" id="phone" required /></p>
           <p>
             <p>SELECT YOUR COUNTY</p>
-            <select type="text" value="" name="Subject">
+            <select type="text" value="" name="Subject" required>
               <option>NAIROBI</option>
               <option>MOMBASA</option>
               <option>KISUMU</option>
@@ -62,9 +60,7 @@
               <option>KAJIADO</option>
             </select>
           </p>
-          <br />
-          <br />
-          <p>Comments: <textarea cols="55" name="Comment" id="comment"> </textarea></p>
+          <p>Comments: <textarea cols="55" name="Comment" id="comment" required> </textarea></p>
           <p>
             <input type="submit" value="send" name="Submit" />
             <input type="reset" value="Reset" name="Reset" />
