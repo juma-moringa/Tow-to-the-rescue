@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
-  background-color:goldenrod;
 }
-
+.container{
+  background-image: url(../IMAGES/back5.jpeg);
+  background-size: cover;
+}
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -69,7 +71,7 @@ nav{
   display: flex;
   justify-content: space-between;
   margin-left: 100px;
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
   text-decoration: none;
 }
