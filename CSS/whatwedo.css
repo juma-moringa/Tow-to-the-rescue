@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
-    font-size: 25px;
+    font-size: 15px;
     font-style: italic;
     text-decoration: none;
 }
@@ -34,6 +34,22 @@ a:hover{
 h2 {
     text-align: center;
 }
+h1{
+  text-align: center;
+  font-style: italic;
+  font-family: 'Original Surfer',cursive;
+}
+h3{
+  font-size: 30px;
+  font-family: 'Architects Daughter', cursive;
+}
+#road-rescue,#towing-breakdown,#forklift-crane-hire,#mobile-car-wash{
+  display: none;
+}
+
+p{
+  font-family: 'Goudy Bookletter 1911', serif;
+}
 footer{
     text-align: center;
     font-size: 15px;
@@ -42,6 +58,7 @@ footer{
     padding: 30px;
     overflow: hidden;
     height: 80px;
+    position: sticky;
     
 }
 #mission, #core-values, #vision{
