@@ -1,13 +1,11 @@
 * {
   box-sizing: border-box;
 }
-.container{
-  background-image: url(../IMAGES/back5.jpeg);
-  background-size: cover;
-}
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -28,12 +26,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
 
 /* Create two columns that float next to eachother */
 .column {
@@ -62,10 +54,12 @@ header {
   padding-right: 100px;
   text-decoration: none;
 }
-nav{
+
+nav {
   display: flex;
   float: right;
 }
+
 .navdiv {
   align-items: center;
   display: flex;
@@ -75,35 +69,43 @@ nav{
   font-style: italic;
   text-decoration: none;
 }
-a{
+
+a {
   color: white;
   text-decoration: none;
   padding: 20px;
 }
-a:hover{
-  color:blue;
+
+a:hover {
+  color: blue;
 }
+
 h2 {
   text-align: center;
 }
-footer{
+
+footer {
   text-align: center;
   font-size: 15px;
   color: black;
-  background-color:goldenrod;
+  background-color: goldenrod;
   padding: 30px;
   overflow: hidden;
   height: 80px;
-  
+
 }
-#text{
-  font-size:large;
+
+#text {
+  font-size: large;
   font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+
+  .column,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
